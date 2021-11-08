@@ -10,6 +10,9 @@
 // Enable general utility classes
 @use "./utilities/index";
 
+// Enable custom utility classes
+@use "./customUtilities";
+
 // Enable Color Utilites: .text-{color}-{shade}, .bg-{color}-{shade}
 @use "generators/colorUtilities";
 
