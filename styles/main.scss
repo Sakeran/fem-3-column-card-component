@@ -1,8 +1,11 @@
 // Enable CSS Reset
-// @use "./reset";
+@use "./reset";
 
 // Populate :root selector
 @use "./root";
+
+// Global Styles
+@use "./global";
 
 // Enable general utility classes
 @use "./utilities/index";

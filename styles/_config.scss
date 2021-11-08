@@ -20,8 +20,14 @@ $breakpoints: (
 
 // Font Families
 $font-families: (
-  "serif": serif,
-  "sans": sans-serif
+  "lexend": (
+    "Lexend Deca",
+    sans-serif,
+  ),
+  "shoulders": (
+    "Big Shoulders Display",
+    sans-serif,
+  ),
 );
 
 // Font Sizes
