@@ -27,3 +27,6 @@
 
 // Enable Letter-Spacing Utilities: .letter-spacing-1, etc
 @use "./generators/letterSpacingUtilities";
+
+// Include Components
+@use "./components/index" as *;
