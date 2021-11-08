@@ -1,10 +1,14 @@
 .button {
+  display: inline-block;
+  
+  padding: 1.125rem 2rem;
   border: 0;
   background: 0;
+  
+  line-height: 1.1;
+  text-align: center;
   text-decoration: none;
 
-  display: inline-block;
-  padding: 0.5rem 2rem;
 
   border: 2px solid hsl(var(--clr-white-1000));
   border-radius: 100vw;
