@@ -8,10 +8,13 @@
 @use "./global";
 
 // Enable general utility classes
-@use "./utilities/index";
+@use "./utilities/index" as *;
 
 // Enable custom utility classes
 @use "./customUtilities";
+
+// Enable composition classes
+@use "./compositions/index" as *;
 
 // Enable Color Utilites: .text-{color}-{shade}, .bg-{color}-{shade}
 @use "generators/colorUtilities";

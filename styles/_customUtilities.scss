@@ -3,3 +3,7 @@
 .text-white-transparent {
   color: hsl(var(--clr-white-1000) / 0.75);
 }
+
+.card-container {
+  --center-max: 920px;
+}
