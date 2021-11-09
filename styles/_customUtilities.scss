@@ -10,3 +10,9 @@
   border-radius: 0.5em;
   overflow: hidden;
 }
+
+.card {
+  --gap: 1.5625rem;
+
+  align-items: flex-start;
+}
