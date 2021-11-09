@@ -36,11 +36,6 @@ html:focus-within {
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
-  line-height: 1.6;
-  letter-spacing: -0.1px;
-
-  font-family: var(--ff-sans);
-  font-weight: 600;
 }
 
 /* A elements that don't have a class get default styles */
